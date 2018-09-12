@@ -10,7 +10,7 @@ namespace GuassianKernelRegression
     public class GaussianKernelRegression
     {
         /// <summary>
-        /// used in gaussian function
+        /// used in gaussian function. it is standard deviation(see http://hyperphysics.phy-astr.gsu.edu/hbase/Math/gaufcn.html)
         /// </summary>
         public double Sigma { get; }
 
