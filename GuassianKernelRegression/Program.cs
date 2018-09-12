@@ -12,6 +12,53 @@ namespace GuassianKernelRegression
     {
         static void Main(string[] args)
         {
+
+            // FM1 three month data
+            //string depthFilePath = @"~/../../../QAQC/data/BAIF_DEPTH_FM1_STATION_ID_1278_PERIOD_JULY012017_OCT012017.csv";
+            //string velocityFilePath = @"~/../../../QAQC/data/BAIF_VELOCITY_FM1_STATION_ID_1278_PERIOD_JULY012017_OCT012017.csv";
+
+            // FM2 three month data
+            //string depthFilePath = @"~/../../../QAQC/data/BAIF_DEPTH_FM2_STATION_ID_1279_PERIOD_JULY012017_OCT012017.csv";
+            //string velocityFilePath = @"~/../../../QAQC/data/BAIF_VELOCITY_FM2_STATION_ID_1279_PERIOD_JULY012017_OCT012017.csv";
+
+
+            // FM3 three month data
+            //string depthFilePath = @"~/../../../QAQC/data/BAIF_DEPTH_FM3_STATION_ID_1280_PERIOD_JULY012017_OCT012017.csv";
+            //string velocityFilePath = @"~/../../../QAQC/data/BAIF_VELOCITY_FM3_STATION_ID_1280_PERIOD_JULY012017_OCT012017.csv";
+
+
+            // FM2 three month data 2018-JAN  TO APRIL
+            //string depthFilePath = @"~/../../../QAQC/data/BAIF_DEPTH_FM2_STATION_ID_1279_PERIOD_JAN012018_APR012018.csv";
+            //string velocityFilePath = @"~/../../../QAQC/data/BAIF_VELOCITY_FM2_STATION_ID_1279_PERIOD_JAN012018_APR012018.csv";
+
+
+
+            // FM2 three month data 2018-JAN  TO APRIL fROM India team
+            string depthFilePath = @"~/data/BAIF_FM2_STATION_1279_DEPTH_01012018_31032018_FROM_IND.csv";
+            string velocityFilePath = @"~/data/BAIF_FM2_STATION_1279_VELOCITY_01012018_31032018_FROM_IND.csv";
+
+
+
+            // FM1 one day's data
+            //string depthFilePath = @"~/../../../QAQC/data/BAIF_DEPTH_FM1_less_data.csv";
+            //string velocityFilePath = @"~/../../../QAQC/data/BAIF_VELOCITY_FM1_less_data.csv";
+
+
+
+
+
+
+
+
+
+
+
+
+            return;
+
+
+
+
             String fileName = @"C:\Users\yliu\Desktop\Tasks\QAQC_Research\Baif_Dev_FM1_Pattern_for_Gaussian_Test\Baif_Dev_FM1_Pattern_for_Gaussian_Test_CSV.csv";
 
 

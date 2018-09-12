@@ -38,7 +38,7 @@ namespace GuassianKernelRegression
         /// Given the list of points winthin the kernel window, Calculate the query point's regression value(calculated y value)
         /// </summary>
         /// <param name="x_queryLocation"></param>
-        /// <param name="kernelPoints">is all points that in the kernel "window", use Tuple<double, double> repenst a point , x = item1, y=item2 </dobule></param>
+        /// <param name="kernelPoints">is all points that in the kernel "window", use Tuple(double, double) repenst a point , x = item1, y=item2 </param>
         /// <returns></returns>
         public double GetRegressionValue(double x_queryLocation, SortedList<double, double> kernelPoints)
         {
